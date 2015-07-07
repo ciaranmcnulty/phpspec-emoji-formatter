@@ -5,12 +5,14 @@
 Install with composer:
 
 ```
-composer require --dev ciaranmcnulty/phpspec-emoji-formatter
+composer require --dev ciaranmcnulty/phpspec-emoji-formatter "@dev"
 ```
 
 Add to `phpspec.yml`:
 
 ```
+formatter.name: emoji
+
 extensions:
   - Cjm\PhpSpec\EmojiFormatterExtension
 ```
@@ -18,3 +20,4 @@ extensions:
 ## Usage
 
 Execute phpspec with the flag `--format emoji`
+

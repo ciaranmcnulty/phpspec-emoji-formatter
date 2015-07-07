@@ -1,2 +1,3 @@
+formatter.name: emoji
 extensions:
   - Cjm\PhpSpec\EmojiFormatterExtension
