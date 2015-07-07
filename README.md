@@ -1,5 +1,12 @@
 # Emoji Formatter for PhpSpec
 
+## Example output:
+
+```
+>bin/phpspec run --format emoji
+🙉 🔥 😄 😄 😄 💩 💩 💩 💩 💩 💩 💩 💩 
+```
+
 ## Installation
 
 Install with composer:
